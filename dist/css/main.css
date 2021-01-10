@@ -243,7 +243,7 @@ body{
 	justify-content: center;
 }
 .aboutMe{
-	width: 40%;
+	width: fit-content;
 	display: flex;
 	flex-direction: column;
 	margin-top: 15%;
@@ -252,9 +252,26 @@ body{
 	padding: 1%;
 }
 
+.meBabah{
+	display: flex;
+}
+.logoLink{
+	position: relative;
+	left: 10%;
+}
+.dreadlogo{
+	position: absolute;
+	width: 4.2em;
+}
+
 .aboutMe h1{
 	font-size: 4.2em;
 }
 .aboutMe p{
 	margin: 2.5% 0%;
+	font-size: 1.3em;
+}
+
+.aboutMe p span{
+	font-weight: 600;
 }
