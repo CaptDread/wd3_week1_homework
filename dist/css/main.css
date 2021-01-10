@@ -243,15 +243,18 @@ body{
 	justify-content: center;
 }
 .aboutMe{
-	width: 25%;
+	width: 40%;
 	display: flex;
 	flex-direction: column;
 	margin-top: 15%;
+	background-color: cornsilk;
+	border: 1.3em purple solid;
+	padding: 1%;
 }
 
 .aboutMe h1{
 	font-size: 4.2em;
 }
 .aboutMe p{
-	margin-top: 5%;
+	margin: 2.5% 0%;
 }
